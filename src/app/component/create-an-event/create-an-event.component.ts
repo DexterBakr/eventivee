@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { USERMODEL } from './USERMODEL'; 
+import { USERMODEL } from './usermOdel'; 
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
