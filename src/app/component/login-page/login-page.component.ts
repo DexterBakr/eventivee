@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { USERModel } from './userModel';
-import { UserService } from '../../services/user.service';
+import { Userlogin } from './userModel';
+import { UserService } from '../../services/user.login-service';
 
 @Component({
   selector: 'app-login-page',
@@ -8,7 +8,7 @@ import { UserService } from '../../services/user.service';
   styleUrls: ['./login-page.component.scss']
 })
 export class LoginPageComponent implements OnInit {
-  userModel = new USERModel('', ''
+  userModel = new Userlogin('', ''
   );
 
   constructor(private userService: UserService) {}

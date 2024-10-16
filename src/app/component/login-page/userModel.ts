@@ -1,6 +1,6 @@
 import { publishFacade } from "@angular/compiler";
 
-export class USERModel{
+export class Userlogin{
   constructor(
     public email : string,
     public password : string,
