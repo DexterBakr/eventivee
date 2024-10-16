@@ -1,0 +1,97 @@
+/* Center content in the viewport */
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color:white;
+  padding: 20px;
+}
+.righteous-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+#title {
+
+  font-family: "Righteous", system-ui;
+  font-weight: 300;
+  color: white;
+  font-size: 24px;
+
+  font-weight: 800;
+  font-size: 30px;
+}
+.form-container {
+  background: #fff;
+  padding: 2rem;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+/* "Home" link styling */
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Styling for form container */
+.create-event {
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-step h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+button.btn-primary {
+  background-color: #D1410C;
+  border-color: #D1410C;
+  color: #fff;
+}
+button.btn-secondary{
+  background-color: #D1410C;
+  border-color: #D1410C;
+  color: #fff;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.eventbe{
+  display: flex;
+  padding: 12px 22px;
+  background:white ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Online{
+  padding: 12px ;
+  background-color: #D1410C;
+  border-color: #D1410C;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+.Offline{
+ padding: 12px ;
+ background-color: #D1410C;
+ border-color: #D1410C;
+ color: white;
+ border: none;
+ border-radius: 25px;
+}
+.input{
+  display: flex;
+  align-items: start;
+}
